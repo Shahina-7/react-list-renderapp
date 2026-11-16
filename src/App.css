@@ -1,0 +1,43 @@
+.product-card {
+  max-width: 750px;
+  margin: 50px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px #cccccc;
+}
+
+h2 {
+  text-align: center;
+  color: #244b78;
+}
+
+.subtitle {
+  text-align: center;
+  color: #777777;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #dddddd;
+  text-align: center;
+}
+
+th {
+  background: #2864a5;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background: #eaf2fa;
+}
+
+tbody tr:hover {
+  background: #d5e8f7;
+}
